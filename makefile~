@@ -1,7 +1,0 @@
-servermain:servermain.c
-	gcc servermain.c -o servermain -lrt -lpthread
-bt:bt.c
-	gcc bt.c -o bt -lrt -lpthread
-serveclient:serverclient.c
-	gcc serveclient.c -o serveclient -lrt -lpthread
-
